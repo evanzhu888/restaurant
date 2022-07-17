@@ -20,19 +20,6 @@ const home = () => {
     hour.append(tues, am);
     main.append(name, hour);
     content.append(main);
-    /*
-    main.classList.add("name");
-    main.innerText = "Evan's Ramen";
-
-    let hour = document.createElement("div");
-    hour.classList.add("hours");
-    let tues = document.createElement("div");
-    tues.innerText = "TUESDAY - SUNDAY";
-    let am = document.createElement("div");
-    tues.innerText = "11AM - 10PM";
-    hour.append(tues, am);
-    content.append(main, hour);
-*/
 }
 
 export default home;
